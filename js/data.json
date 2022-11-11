@@ -1,0 +1,32 @@
+[
+    {
+       "id":"item01",
+       "titulo":"Hell He Lie",
+       "precio":3.80,
+       "conteo":0
+    },
+    {
+       "id":"item02",
+       "titulo":"Lorem Ipsum",
+       "precio":2.30,
+       "conteo":0
+    },
+    {
+       "id":"item03",
+       "titulo":"Norma",
+       "precio":1.50,
+       "conteo":0
+    },
+    {
+       "id":"item04",
+       "titulo":"Los NO santos",
+       "precio":2.50,
+       "conteo":0
+    },
+    {
+       "id":"item05",
+       "titulo":"Hachede",
+       "precio":3.00,
+       "conteo":0
+    }
+ ]

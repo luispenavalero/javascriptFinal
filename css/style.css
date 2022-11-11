@@ -1,0 +1,356 @@
+/* reset */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+/* secciones */
+
+.nav__div {
+    height: 27vh;
+    width: 100%;
+    background-color: rgb(21, 21, 21); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__div {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(21, 21, 21);   
+    color: rgb(109, 108, 108); 
+    padding-left: 2vw; 
+    padding-top: 3vh;   
+    font-size: small;
+}
+
+.galery__div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 25%;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.item__img {
+    width: 90%;
+}
+
+.item__img img {
+    width: 100%;
+    border-radius: 10%;  
+}
+
+.item__description {
+    text-align: center;
+}
+
+.item__price {
+    margin-top: 1vh;
+    font-weight: 600;
+    color: rgb(94, 148, 12);
+}
+
+.item__button {
+    margin-top: 3vh;
+    background-color: rgb(21, 21, 21);
+    color: rgb(219, 219, 219);
+    height: 5vh;
+    width: 6vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;  
+}
+
+.item__button:hover {
+    background-color: rgb(46, 46, 46); 
+}
+
+.item__button p {
+    text-align: center;
+}
+
+.nav__div-logo {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__div-logo img {
+    margin-top: 2vh;
+    height: 100%;
+}
+
+.nav__div-menu {
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__div-menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.nav__div-menu ul li {
+    list-style: none;
+    width: 10vw;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    border-radius: 5px;  
+}
+
+.nav__div-menu ul li a {
+    color: rgb(219, 219, 219);
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.nav__div-menu ul li a:hover {
+    color: rgb(46, 46, 46);
+    background-color: rgb(219, 219, 219);
+}
+
+.total__price {
+    color: rgb(30, 30, 30); 
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2vh;
+    margin-bottom: 2vh;   
+}
+
+.nav_div-factura a{
+    text-decoration: none;
+}
+
+.comprar__button {
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    height: 5vh;
+    width: 6vw;
+    background-color: rgb(94, 148, 12);
+    color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;   
+}
+
+.limpiar__button {
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    height: 5vh;
+    width: 6vw;
+    background-color: rgb(94, 148, 12);
+    color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;   
+}
+
+
+.nav_div-factura {
+    display: flex;
+    margin-top: 2vh;
+    background-color: rgb(125, 125, 125);
+    color: rgb(219, 219, 219);;
+    width: 25rem;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.nav_div-factura a {
+    display: flex;
+    width: 25rem;
+    justify-content: space-around;
+    
+}
+
+.preview {
+    color: blue;
+    font-weight: 600;
+}
+
+/* facturador */
+
+.facturador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.facturador h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.factura__div {
+    width: 50%;
+    background-color: rgb(213, 213, 213);
+    border-radius: 5px;  
+}
+
+.tag__items {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.itemDescrip {
+    width: 25rem;
+    display: flex;
+    align-items: center;
+}
+
+.itemDescrip img {
+    width: 3rem;
+}
+
+.itemDescrip span {
+    margin-left: 2rem;
+}
+
+.itemProducto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding-left: 1.5rem;
+}
+
+.cantidades {
+    display: flex;
+    justify-content: center;
+}
+
+.precio{
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+}
+
+.unidades{
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+}
+
+.totalUnidad{
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+}
+
+/* contenedor totales */
+
+.totalContenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2rem;
+    background-color: rgb(198, 198, 198);
+    border-radius: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.costoTotal {
+    color: rgb(118, 23, 23);
+}
+
+.titleIva {
+    font-size: small;
+    color: rgb(44, 44, 44);
+    font-weight: 700;
+}
+
+.titleBruto {
+    font-size: small;
+    color: rgb(44, 44, 44);
+    font-weight: 700;
+}
+
+.iva {
+    font-size: small;
+    color: rgb(44, 44, 44);
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+
+.bruto {
+    font-size: small;
+    color: rgb(44, 44, 44);
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+
+/* general Titles */
+
+.generalTitles{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    background-color: rgb(198, 198, 198);
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.nameItem{
+    margin-left: 7rem;
+}
+
+.valor_neto {
+    margin-left: 5rem;    
+}
+
+.cantidad_item {
+    margin-left: -1rem;     
+}
+
+.total_item{
+    margin-left: -3rem;        
+}
+
+.disclaimer {
+    background-color: rgb(198, 198, 198);
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
